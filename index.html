@@ -2,48 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ethan & Love</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Georgia', serif;
-      background: #fceff9;
-      color: #3d2c2e;
+      font-family: 'Quicksand', sans-serif;
+      background: #fff6fc;
+      color: #4a2d39;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-image: url('https://www.transparenttextures.com/patterns/lined-paper.png');
     }
 
     header {
-      background: #ffccd5;
-      padding: 2rem;
+      background: linear-gradient(135deg, #ffe0f0, #ffccf9);
+      padding: 3rem 1rem 2rem;
       text-align: center;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border-bottom: 4px dotted #fcbad3;
     }
 
     header h1 {
+      font-family: 'Sacramento', cursive;
+      font-size: 4.5rem;
+      color: #c94f7c;
       margin: 0;
-      font-size: 3rem;
-      font-weight: normal;
     }
 
-    section {
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      color: #9c5d72;
+    }
+
+    .section {
       max-width: 800px;
       margin: 2rem auto;
-      padding: 1rem 2rem;
-      background: #fff0f6;
-      border-radius: 12px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 2.5rem;
+      background: #ffeafd;
+      border-radius: 25px;
+      border: 3px dashed #ffcce6;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      position: relative;
     }
 
-    section h2 {
-      margin-top: 0;
+    .section::before {
+      content: "💖";
       font-size: 2rem;
+      position: absolute;
+      top: -1rem;
+      left: -1rem;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #c94f7c;
+    }
+
+    .section p, .section ul {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      list-style: "🌸 ";
+    }
+
+    .baby-talk {
+      background: #fff0f8;
+      border-radius: 20px;
+      padding: 1.5rem;
+      border: 2px dashed #ffb3d1;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: #9c5970;
+      margin-top: 1rem;
     }
 
     footer {
       text-align: center;
       padding: 2rem;
       font-size: 0.9rem;
-      color: #7b5c61;
+      color: #a8747d;
+      background: #ffe6f0;
+      border-top: 3px dotted #ffc6d0;
+      margin-top: auto;
+    }
+
+    .hearts {
+      font-size: 1.3rem;
+      text-align: center;
+      padding-top: 0.5rem;
+      color: #ff6fa0;
     }
   </style>
 </head>
@@ -51,37 +105,44 @@
 
   <header>
     <h1>Ethan & Love</h1>
-    <p>A little piece of my heart in digital form</p>
+    <p>my squishy girl 🧸💗 forever and ever</p>
+    <div class="hearts">⋆｡‧˚ʚ♡ɞ˚‧｡⋆</div>
   </header>
 
-  <section>
+  <div class="section">
     <h2>Our Story</h2>
     <p>
-      This space is dedicated to a beautiful connection built on trust, patience, and deep love. 
-      Through ups and downs, this bond has only grown stronger—and it deserves a special place to be celebrated.
+      Once upon a fluffy pink cloud, Ethan met the softest, sweetest girl in the whole world.  
+      They laughed, snuggled, and built a little love bubble filled with trust and baby cuddles.  
+      This is our place where all the softest feelings live.
     </p>
-  </section>
+  </div>
 
-  <section>
-    <h2>Things I Love About Her</h2>
+  <div class="section">
+    <h2>Things I Wuv About You</h2>
     <ul>
-      <li>Her devotion, her spark, and the way she lights up my life</li>
-      <li>The little things she does that show me she cares</li>
-      <li>How she makes me want to be the best version of myself</li>
+      <li>Your giggles and the way you scrunch your nose like a baby bunbun</li>
+      <li>The way you say "mine" and mean it</li>
+      <li>You're my safe space, my princess, my cozy little cupcake</li>
     </ul>
-  </section>
 
-  <section>
+    <div class="baby-talk">
+      you da pwettiest baby girl eber... my wittle softy girl... i hold u tight foreber n ever 🥺💗💞
+    </div>
+  </div>
+
+  <div class="section">
     <h2>Our Future</h2>
     <p>
-      From cozy cabin getaways to building a life together—we’re just getting started.  
-      This love story is only beginning, and I can’t wait to see where it goes.
+      Cabins, cuddle piles, sleepy morning kisses, matching pajamas, building a pink life full of warm things.  
+      I can't wait to spoil you, protect you, and grow old holding your hand every night.
     </p>
-  </section>
+  </div>
 
   <footer>
-    Made with love by Ethan | © 2025
+    Made wif snuggles by Ethan 🧸 | © 2025
   </footer>
 
 </body>
 </html>
+
